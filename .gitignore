@@ -1,0 +1,6 @@
+
+# hidden file
+.DS_Store
+
+# hidden directory
+.idea/
