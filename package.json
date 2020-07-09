@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ismael-pires/helper-style-classes/issues"
   },
-  "homepage": "https://github.com/ismael-pires/helper-style-classes#readme"
+  "homepage": "https://github.com/ismael-pires/helper-style-classes#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
 }

@@ -4,3 +4,6 @@
 
 # hidden directory
 .idea/
+
+node_modules/
+yarn.lock

@@ -4,4 +4,4 @@
 
 # dependencies
 
-    node-sass ^4.14.1 or latest
+    node-sass=^4.14.1
