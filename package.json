@@ -1,6 +1,6 @@
 {
   "name": "helper-style-classes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Most used style classes to standardize development within the environment",
   "main": "index.scss",
   "scripts": {
