@@ -1,6 +1,7 @@
 
 # hidden file
 .DS_Store
+.env
 
 # hidden directory
 .idea/

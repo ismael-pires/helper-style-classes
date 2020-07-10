@@ -1,0 +1,86 @@
+@import "helper-variables";
+
+// Layout with Flex ----------------------------------------------------------------------------------------------------
+
+.flex { display: flex !important; }
+
+// Stretch Parts
+.flex-1 { flex: 1 !important; }
+.flex-2 { flex: 2 !important; }
+.flex-3 { flex: 3 !important; }
+.flex-4 { flex: 4 !important; }
+.flex-5 { flex: 5 !important; }
+.flex-6 { flex: 6 !important; }
+.flex-7 { flex: 7 !important; }
+.flex-8 { flex: 8 !important; }
+.flex-9 { flex: 9 !important; }
+
+// Equivalent Parts
+.flex-01-10 { margin: $flex-margin; flex: 0 1 calc(100.0% - 22px); }
+.flex-02-10 { margin: $flex-margin; flex: 0 1 calc(50.00% - 22px); }
+.flex-03-10 { margin: $flex-margin; flex: 0 1 calc(33.33% - 22px); }
+.flex-04-10 { margin: $flex-margin; flex: 0 1 calc(25.00% - 22px); }
+.flex-05-10 { margin: $flex-margin; flex: 0 1 calc(20.00% - 22px); }
+.flex-06-10 { margin: $flex-margin; flex: 0 1 calc(16.66% - 22px); }
+.flex-07-10 { margin: $flex-margin; flex: 0 1 calc(14.28% - 22px); }
+.flex-08-10 { margin: $flex-margin; flex: 0 1 calc(12.50% - 22px); }
+.flex-09-10 { margin: $flex-margin; flex: 0 1 calc(11.11% - 22px); }
+.flex-10-10 { margin: $flex-margin; flex: 0 1 calc(10.00% - 22px); }
+
+// Small Parts
+.flex-xs, .flex-sm, .flex-sd { margin: $flex-margin; flex: 1 1 auto; }
+
+// Medium Parts
+.flex-ms, .flex-md, .flex-lm { margin: $flex-margin; flex: 1 1 auto; }
+
+// Large Parts
+.flex-lg, .flex-lx, .flex-xl { margin: $flex-margin; flex: 1 1 auto; }
+
+// Full Part
+.flex-fl { margin: $flex-margin; flex: 1 1 auto; }
+
+@media #{$max-tablet-lg} {
+  .flex-01-10 { flex: 0 1 calc(100.0% - 22px); }
+  .flex-02-10 { flex: 0 1 calc(50.00% - 22px); }
+  .flex-03-10 { flex: 0 1 calc(33.33% - 22px); }
+  .flex-04-10 { flex: 0 1 calc(25.00% - 22px); }
+  .flex-05-10, .flex-06-10 { flex: 0 1 calc(33.33% - 22px); }
+  .flex-07-10, .flex-08-10 { flex: 0 1 calc(25.00% - 22px); }
+  .flex-09-10 { flex: 0 1 calc(33.33% - 22px); }
+  .flex-10-10 { flex: 0 1 calc(20.00% - 22px); }
+  
+}
+
+@media #{$max-tablet-md} {
+  .flex-01-10 { flex: 0 1 calc(100.0% - 22px); }
+  .flex-02-10 { flex: 0 1 calc(50.00% - 22px); }
+  .flex-03-10 { flex: 0 1 calc(33.33% - 22px); }
+  .flex-04-10 { flex: 0 1 calc(25.00% - 22px); }
+  .flex-05-10, .flex-06-10, .flex-07-10, .flex-08-10, .flex-09-10, .flex-10-10 { flex: 0 1 calc(25.00% - 22px); }
+  
+}
+
+@media #{$max-tablet-sm} {
+  .flex-01-10 { flex: 0 1 calc(100.0% - 22px); }
+  .flex-02-10 { flex: 0 1 calc(50.00% - 22px); }
+  .flex-03-10, .flex-04-10, .flex-05-10, .flex-06-10 { flex: 0 1 calc(33.33% - 22px); }
+  .flex-07-10, .flex-08-10 { flex: 0 1 calc(25.00% - 22px); }
+  .flex-09-10 { flex: 0 1 calc(33.33% - 22px); }
+  .flex-10-10 { flex: 0 1 calc(25.00% - 22px); }
+}
+
+@media #{$max-mobile-lg} {
+  .flex-01-10 { flex: 0 1 calc(100.0% - 20px); }
+  .flex-02-10, .flex-03-10, .flex-04-10, .flex-05-10 { flex: 0 1 calc(50.00% - 22px); }
+  .flex-06-10, .flex-07-10, .flex-08-10, .flex-09-10, .flex-10-10 { flex: 0 1 calc(33.33% - 22px); }
+}
+
+@media #{$max-mobile-md} {
+  .flex-01-10, .flex-02-10, .flex-03-10, .flex-04-10, .flex-05-10 { flex: 0 1 calc(100.0% - 20px); }
+  .flex-06-10, .flex-07-10, .flex-08-10, .flex-09-10, .flex-10-10 { flex: 0 1 calc(50.00% - 22px); }
+}
+
+@media #{$max-mobile-sm} {
+  .flex-01-10, .flex-02-10, .flex-03-10, .flex-04-10, .flex-05-10 { flex: 0 1 calc(100.0% - 20px); }
+  .flex-06-10, .flex-07-10, .flex-08-10, .flex-09-10, .flex-10-10 { flex: 0 1 calc(50.00% - 22px); }
+}
