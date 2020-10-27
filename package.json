@@ -1,11 +1,11 @@
 {
   "name": "helper-style-classes",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Most used style classes to standardize development within the environment",
   "main": "./src/index.scss",
   "scripts": {
     "start": "PORT=3005 react-scripts start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
