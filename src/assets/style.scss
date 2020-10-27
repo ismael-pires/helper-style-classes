@@ -3,7 +3,12 @@ body {
   font-family: Acme, sans-serif;
 }
 
-#main {
+#flex {
+  
+  h1 {
+    margin-left: 20px;
+  }
+  
   .container {
     display: flex;
     flex-direction: column;
@@ -58,6 +63,56 @@ body {
         &:hover {
           background-color: darken(#787B87, 3%);
           border: 1px solid darken(#787B87, 6%);
+        }
+      }
+    }
+  }
+}
+
+#forms {
+  
+  h1 {
+    margin-left: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px 15px;
+    
+    .title {
+      label {
+        margin: 4px 10px;
+        border-bottom: 1.5px solid #DAD4DC;
+      }
+    }
+    
+    .content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      
+      .input-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        label {
+          font-size: 14px;
+          font-weight: 400;
+        }
+        
+        input {
+          width: 100%;
+          display: block;
+          border-radius: 3px;
+          box-sizing: border-box;
+          padding: 5px 15px 5px 3px;
+          border: 1px solid #DAD4DC;
+          box-shadow: 0 0 0 #000000 !important;
         }
       }
     }

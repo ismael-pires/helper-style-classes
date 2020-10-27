@@ -1,7 +1,8 @@
 import React from 'react'
-import Card from "./components/Card"
 
-const App = () => {
+import Card from "../components/Card"
+
+const Flex = () => {
 
     const getCards = (number, className) => {
 
@@ -25,7 +26,7 @@ const App = () => {
     }
 
     return (
-        <section id="main">
+        <section id="flex">
             <h1>Flex Examples</h1>
             <div className="container">
                 <div className="title">
@@ -137,4 +138,4 @@ const App = () => {
     )
 }
 
-export default App
+export default Flex
