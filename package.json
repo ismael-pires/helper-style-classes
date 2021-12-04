@@ -1,6 +1,6 @@
 {
   "name": "helper-style-classes",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Most used style classes to standardize development within the environment",
   "main": "./src/index.scss",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ismael-pires/helper-style-classes#readme",
   "dependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^6.0.1"
   },
   "devDependencies": {
     "react": "^16.13.1",
