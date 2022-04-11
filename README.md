@@ -4,4 +4,4 @@
 
 # dependencies
 
-    node-sass=^4.14.1
+     sass=^1.50.0
